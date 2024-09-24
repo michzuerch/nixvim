@@ -33,6 +33,36 @@
         yamlls = {
           enable = true;
         };
+        ansiblels = {
+          enable = true;
+        };
+        astro = {
+          enable = true;
+        };
+        cmake = {
+          enable = true;
+        };
+        cssls = {
+          enable = true;
+        };
+        dockerls = {
+          enable = true;
+        };
+        docker-compose-language-service = {
+          enable = true;
+        };
+        emmet-ls = {
+          enable = true;
+        };
+        eslint = {
+          enable = true;
+        };
+        rust-analyzer = {
+          enable = true;
+          installRustc = false;
+          installCargo = false;
+        };
+
       };
       keymaps = {
         silent = true;

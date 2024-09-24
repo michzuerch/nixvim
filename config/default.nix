@@ -46,7 +46,7 @@
     #./plug/ui/precognition.nix
     ./plug/ui/smart-splits.nix
     ./plug/ui/telescope.nix
-    ./plug/ui/barbar.nix
+    ./plug/ui/tagbar.nix
 
     ./plug/utils/colorizer.nix
     ./plug/utils/comment-box.nix

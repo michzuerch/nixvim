@@ -36,7 +36,7 @@
         yamlls = {
           enable = true;
         };
-        emmetls = {
+        emmet-ls = {
           enable = true;
         };
         ts-ls = {
@@ -107,6 +107,12 @@
           enable = true;
         };
         docker-compose-language-service = {
+          enable = true;
+        };
+        graphql = {
+          enable = true;
+        };
+        htmx = {
           enable = true;
         };
       };

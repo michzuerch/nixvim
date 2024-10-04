@@ -7,6 +7,9 @@
     ./highlight.nix
 
     ./plug/colorscheme/colorscheme.nix
+    ./plug/colorschemes/base16.nix
+    ./plug/colorschemes/catppuccin.nix
+    ./plug/colorschemes/rose-pine.nix
 
     ./plug/completion/cmp.nix
     ./plug/completion/codecompanion.nix

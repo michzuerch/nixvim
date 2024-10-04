@@ -9,6 +9,9 @@
         html = {
           enable = true;
         };
+        cssls = {
+          enable = true;
+        };
         lua-ls = {
           enable = true;
         };
@@ -31,6 +34,9 @@
           enable = true;
         };
         yamlls = {
+          enable = true;
+        };
+        emmetls = {
           enable = true;
         };
         ts-ls = {
@@ -95,6 +101,12 @@
           enable = true;
         };
         astro = {
+          enable = true;
+        };
+        dockerls = {
+          enable = true;
+        };
+        docker-compose-language-service = {
           enable = true;
         };
       };

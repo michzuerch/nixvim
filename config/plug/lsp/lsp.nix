@@ -33,6 +33,70 @@
         yamlls = {
           enable = true;
         };
+        ts-ls = {
+          enable = false;
+          filetypes = [
+            "javascript"
+            "javascriptreact"
+            "typescript"
+            "typescriptreact"
+          ];
+          extraOptions = {
+            settings = {
+              javascript = {
+                inlayHints = {
+                  includeInlayEnumMemberValueHints = true;
+                  includeInlayFunctionLikeReturnTypeHints = true;
+                  includeInlayFunctionParameterTypeHints = true;
+                  includeInlayParameterNameHints = "all";
+                  includeInlayParameterNameHintsWhenArgumentMatchesName = true;
+                  includeInlayPropertyDeclarationTypeHints = true;
+                  includeInlayVariableTypeHints = true;
+                };
+              };
+              typescript = {
+                inlayHints = {
+                  includeInlayEnumMemberValueHints = true;
+                  includeInlayFunctionLikeReturnTypeHints = true;
+                  includeInlayFunctionParameterTypeHints = true;
+                  includeInlayParameterNameHints = "all";
+                  includeInlayParameterNameHintsWhenArgumentMatchesName = true;
+                  includeInlayPropertyDeclarationTypeHints = true;
+                  includeInlayVariableTypeHints = true;
+                };
+              };
+            };
+          };
+        };
+        eslint = {
+          enable = true;
+        };
+        rust-analyzer = {
+          enable = true;
+          installCargo = false;
+          installRustc = false;
+          settings = {
+            checkOnSave = true;
+            check = {
+              command = "clippy";
+            };
+            # inlayHints = {
+            #   enable = true;
+            #   showParameterNames = true;
+            #   parameterHintsPrefix = "<- ";
+            #   otherHintsPrefix = "=> ";
+            # };
+            procMacro = {
+              enable = true;
+            };
+          };
+        };
+        tailwindcss = {
+          enable = true;
+        };
+        astro = {
+          enable = true;
+        };
       };
       keymaps = {
         silent = true;

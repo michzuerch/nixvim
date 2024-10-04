@@ -6,7 +6,7 @@
     ./sets.nix
     ./highlight.nix
 
-    ./plug/colorscheme/colorscheme.nix
+    # ./plug/colorscheme/colorscheme.nix
     ./plug/colorscheme/base16.nix
     ./plug/colorscheme/catppuccin.nix
     ./plug/colorscheme/rose-pine.nix
